@@ -16,3 +16,8 @@ venv
 # Ignorar la base de datos
 db.sqlite3
 node_modules
+
+# Ignorar readme.md
+README.md
+
+
