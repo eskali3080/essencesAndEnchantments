@@ -1,0 +1,18 @@
+# Ignorar el archivo python que realiza el mapeado de los archivos del proyecto
+python.py
+
+# Ignorar los archivos pdf
+*.pdf
+
+# Ignorar la carpeta del editor de codigo PyCharm 
+.idea
+
+# Ignorar la carpeta del edito de codigo Visual Studio Code
+.vscode
+
+# Ignorar el entorno virtual
+venv
+
+# Ignorar la base de datos
+db.sqlite3
+node_modules
