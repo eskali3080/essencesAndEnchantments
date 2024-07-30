@@ -31,7 +31,7 @@ export default function Example() {
               >
                 +1 (555) 123-4567
               </div>
-              <a href="https://api.whatsapp.com/send?phone=1234567890&text=Quiero%20hacer%20un%20pedido%20por%20Leonisa" target="_blank" rel="noopener noreferrer">
+              <a href="https://api.whatsapp.com/send?phone=573222641984&text=Hola,%20me%20gustaria%20realizar%20un%20pedido%20😁" target="_blank" rel="noopener noreferrer">
                 <button
                   type="submit"
                   className="flex-none rounded-md bg-primary-color px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
