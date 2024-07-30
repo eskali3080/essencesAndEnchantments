@@ -7,5 +7,14 @@ class ProductRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ProductSerializer
 
 class ProductListCreate(generics.ListCreateAPIView):
-    queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        """
+        Filtra los productos por categoría si se proporciona en la URL.
+        """
+        queryset = Product.objects.all()
+        category = self.request.query_params.get('category')
+        if category:
+            queryset = queryset.filter(categoria=category)
+        return queryset
